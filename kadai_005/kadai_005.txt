@@ -1,0 +1,45 @@
+C:\Users\Iyosh\Documents>mkdir git_challenge
+
+C:\Users\Iyosh\Documents>cd git_challenge
+
+ C:\Users\Iyosh\Documents\git_challenge のディレクトリ
+
+2025/03/21  18:18    <DIR>          .
+2025/03/21  18:17    <DIR>          ..
+2025/03/21  18:15                11 hello_world.txt
+               1 個のファイル                  11 バイト
+               2 個のディレクトリ  363,187,961,856 バイトの空き領域
+
+C:\Users\Iyosh\Documents\git_challenge>git init
+Initialized empty Git repository in C:/Users/Iyosh/Documents/git_challenge/.git/
+
+C:\Users\Iyosh\Documents\git_challenge>git add hello_world.txt
+
+C:\Users\Iyosh\Documents\git_challenge>git commit -m "追加"d
+[main (root-commit) d103b2f] 追加d
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+
+C:\Users\Iyosh\Documents\git_challenge>git add hello_world.txt
+
+C:\Users\Iyosh\Documents\git_challenge>git commit -m "再追加"
+[main 5456d2a] 再追加
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+C:\Users\Iyosh\Documents\git_challenge>git status
+On branch main
+nothing to commit, working tree clean
+
+C:\Users\Iyosh\Documents\git_challenge>git log
+commit 5456d2a1ef8e453f512f62aa18cb1ed51b89b811 (HEAD -> main)
+Author: tako2024 <iyoda551@gmail.com>
+Date:   Fri Mar 21 18:22:13 2025 +0900
+
+    再追加
+
+commit d103b2f5383295ef49f67d33510a3029d3e42a94
+Author: tako2024 <iyoda551@gmail.com>
+Date:   Fri Mar 21 18:21:50 2025 +0900
+
+    追加d
+
