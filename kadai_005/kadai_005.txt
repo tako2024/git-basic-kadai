@@ -21,3 +21,5 @@ C:\Users\Iyosh\Documents\git_kadai>git commit -m "再追加"
 C:\Users\Iyosh\Documents\git_kadai>git log --oneline
 cc0f1ea (HEAD -> main) 再追加
 7d3b0d7 ファイル追加
+
+add
