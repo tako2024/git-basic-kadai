@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 PS C:\Users\Iyosh\OneDrive\ドキュメント\program\samurai\4.git\kadai\git-basic-kadai> git add .\hello_world.txt
 PS C:\Users\Iyosh\OneDrive\ドキュメント\program\samurai\4.git\kadai\git-basic-kadai> git commit -m "追加"
 [main a6d525c] 追加
@@ -20,3 +21,30 @@ a6d525c (HEAD -> main) 追加
 338cb81 (origin/main, origin/HEAD) aa
 e589f5b 課題提出
 PS C:\Users\Iyosh\OneDrive\ドキュメント\program\samurai\4.git\kadai\git-basic-kadai> 
+=======
+C:\Users\Iyosh\Documents\git_kadai>git init
+Initialized empty Git repository in C:/Users/Iyosh/Documents/git_kadai/.git/
+
+C:\Users\Iyosh\Documents\git_kadai>echo "Hello, World!" >> hello_world.txt
+
+C:\Users\Iyosh\Documents\git_kadai>git add hello_world.txt
+
+C:\Users\Iyosh\Documents\git_kadai>git commit -m "ファイル追加"
+[main (root-commit) 7d3b0d7] ファイル追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+
+C:\Users\Iyosh\Documents\git_kadai>echo "こんにちは、世界" >> hello_world.txt
+
+C:\Users\Iyosh\Documents\git_kadai>git add hello_world.txt
+
+C:\Users\Iyosh\Documents\git_kadai>git commit -m "再追加"
+[main cc0f1ea] 再追加
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+C:\Users\Iyosh\Documents\git_kadai>git log --oneline
+cc0f1ea (HEAD -> main) 再追加
+7d3b0d7 ファイル追加
+
+add
+>>>>>>> 5a79bc86d6a6a0ef464b835cc133b5cf1ad7e947
