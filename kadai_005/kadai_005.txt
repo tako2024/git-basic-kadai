@@ -1,0 +1,22 @@
+PS C:\Users\Iyosh\OneDrive\ドキュメント\program\samurai\4.git\kadai\git-basic-kadai> git add .\hello_world.txt
+PS C:\Users\Iyosh\OneDrive\ドキュメント\program\samurai\4.git\kadai\git-basic-kadai> git commit -m "追加"
+[main a6d525c] 追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\Iyosh\OneDrive\ドキュメント\program\samurai\4.git\kadai\git-basic-kadai> echo "こんにちは、世界!" >> .\hello_world.txt
+PS C:\Users\Iyosh\OneDrive\ドキュメント\program\samurai\4.git\kadai\git-basic-kadai> git commit -m "再追加"
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   hello_world.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\Iyosh\OneDrive\ドキュメント\program\samurai\4.git\kadai\git-basic-kadai> git log --oneline  
+a6d525c (HEAD -> main) 追加
+338cb81 (origin/main, origin/HEAD) aa
+e589f5b 課題提出
+PS C:\Users\Iyosh\OneDrive\ドキュメント\program\samurai\4.git\kadai\git-basic-kadai> 
